@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CIC Data Handler</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="padding: 50px;">
+	<h1>CIC Data Parser</h1>
+	<h4>Enter filename:</h4>
+	<label for="filename">File name:</label>
+	<input type="text" class="input" text="My_Report" id="filename" default="My_Report">
+	<br />
+
+	<h4>Enter query below:</h4>
+	<textarea rows="4" cols="50" class="input" id="query_input" style="border-radius: 5px;"></textarea>
+	<br />
+	<button id="btn" style="padding-left: 10px;">Parse & Preview</button>
+	<button id="btn-csv" style="padding-left: 10px;">Download CSV</button>
+
+	<div id="summary"></div>
+	<div id="response"></div>	
+	
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

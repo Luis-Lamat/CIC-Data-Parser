@@ -1,0 +1,29 @@
+h1, h4, label {
+	font-family: sans-serif;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.input {
+	padding: 10px;
+	font-family: monospace;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#response {
+	padding: 10px;
+	font-family: monospace;
+	border: 1px solid black;
+	margin-top: 20px;
+}
+
+#btn, #btn-csv {
+	background-color: #2398ea;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: #eaeaea;
+}
